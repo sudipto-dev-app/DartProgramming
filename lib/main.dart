@@ -1,12 +1,6 @@
-import 'dart:io';
+void main(){
 
-void main() {
-  // Write your dart code from here
-  int? nam1, nam2;
+  var x = 5; for (var i = 0; i < x; i++) { print(i);
+  }
 
-  nam1 = int.parse(stdin.readLineSync()!);
-  nam2 = int.parse(stdin.readLineSync()!);
-  int result;
-  result = (nam1 + nam2);
-  print("$result");
 }

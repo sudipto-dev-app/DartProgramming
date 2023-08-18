@@ -1,5 +1,5 @@
 void main(){
-  List<int> numbers =[34, 34, 55, 5, 8, 72];
+  List<int> numbers =[85, 92, 78, 65, 88, 72];
   int len = numbers.length;
   int sum=0;
   for( int i = 0 ; i<len;i++) {
@@ -14,7 +14,7 @@ void main(){
     print("passed");
   }
   else{
-    print("Failed");
+    print("Faild");
   }
   
 
