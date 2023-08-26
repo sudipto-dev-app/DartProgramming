@@ -12,9 +12,9 @@ class Person {
   }
 }
 void main() {
-  String name = "Ostad"; // assign your name
-  int age = 25; //assign your age
-  String address = "Baridhara, Dhaka"; //assign any address
+  String name = "Sudipto"; // assign your name
+  int age = 22; //assign your age
+  String address = "Cantonment, Dhaka"; //assign any address
   Person person = Person(name, age, address);
   person.sayHello();
   int ageInMonths = person.getAgeInMonths();
